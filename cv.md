@@ -28,3 +28,21 @@
 * Basic knowledge of HTML, CSS, and JavaScript.
 
 ********
+
+### Work experience
+
+* Don't have any work experience like a developer for now.
+
+********
+
+### Education
+* RSSchool - September 2020-present.
+* Front-End online courses on Udemy, HTMLAcademy.
+* Finance and credit - Brest state technical University: faculty of Economics. - September 2011 - July 2016
+
+********
+
+### Additional information
+* English B1
+
+********
