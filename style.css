@@ -10,20 +10,20 @@
 header {
     display: flex;
     margin: 35px;
-    background-color: #4e5e60;
     align-items: center;
     justify-content: start;
     min-height: 150px;
+    background-color: #4e5e60;
 }
 
 h1 {
+    margin: 0;
+    margin-top: 10px;
     font-size: 40px;
     font-weight: 700;
     text-transform: uppercase;
     color: #fff;
-    margin: 0;
-    margin-top: 10px;
-}
+    }
 
 .img__block {
     display: flex;
@@ -53,8 +53,8 @@ img {
 header a, p {
     position: relative;
     display: inline-block;
-    color: #fff;
     margin-right: 10px;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -80,8 +80,8 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     margin: 50px;
-    color: #000;
     min-height: 100px;
+    color: #000;
     font-size: 14px;
     font-weight: 400;
 }
@@ -93,9 +93,9 @@ main {
 }
 
 .info__block div {
-    line-height: 20px;
     padding: 15px;
-}
+    line-height: 20px;
+    }
 
 h2 {
     padding: 0 5px;
