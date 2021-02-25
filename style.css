@@ -1,4 +1,8 @@
-* {
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -46,8 +50,22 @@ img {
     display: flex;
 }
 
-.contacts__pre {
+.contacts_pre {
     display: flex;
+}
+
+.phone, .mail {
+    color: #fff;
+    margin-right: 10px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+   text-decoration: none; 
+   color: black;
 }
 
 header a, p {
@@ -55,7 +73,7 @@ header a, p {
     display: inline-block;
     margin-right: 10px;
     color: #fff;
-    text-decoration: none;
+    
 }
 
 .country {
@@ -95,7 +113,7 @@ main {
 .info__block div {
     padding: 15px;
     line-height: 20px;
-    }
+}
 
 h2 {
     padding: 0 5px;
