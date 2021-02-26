@@ -126,3 +126,107 @@ main p {
     font-weight: 400;
     color: #000000;
 }
+
+footer {
+    display: flex;
+    margin: 35px;
+    align-items: center;
+    justify-content: start;
+    min-height: 100px;
+    background-color: #4e5e60;
+    padding: 0 75px;
+}
+
+.footer_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+    height: 80px;
+}
+
+.footer__logo_title {
+    font-size: 20px;
+    font-weight: 700;
+}
+    
+.footer__logo a {
+    width: 100%;
+    height: 100%;
+}
+
+.footer__logo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0%;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+}
+
+.nav__header {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.contacts__links {
+    display: flex;
+    justify-content: space-between;
+    width: 240px;
+    height: 40px;
+}
+
+.contacts__links ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.contacts__links a {
+    width: 20px;
+    height: 20px;
+}
+
+.contacts__links ul li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+} 
+
+.phone_ico {
+    background: no-repeat center/contain url(img/telephone.svg);
+}
+
+.mail_ico {
+    background: no-repeat center/contain url(img/gmail.svg);
+}
+
+.github_ico {
+    background: no-repeat center/contain url(img/github.svg);
+}
+
+.disc_ico {
+    background: no-repeat center/contain url(img/discord.svg);
+}
+
+.telegram_ico {
+    background: no-repeat center/contain url(img/telegram.svg);
+}
