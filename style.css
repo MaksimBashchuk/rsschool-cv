@@ -1,0 +1,228 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    margin: 35px;
+    align-items: center;
+    justify-content: start;
+    min-height: 150px;
+    background-color: #4e5e60;
+}
+
+h1 {
+    margin: 0;
+    margin-top: 10px;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    }
+
+.img__block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    margin: 15px;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+img {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.adress {
+    display: flex;
+}
+
+.contacts_pre {
+    display: flex;
+}
+
+.phone, .mail {
+    color: #fff;
+    margin-right: 10px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+   text-decoration: none; 
+   color: black;
+}
+
+header a, p {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+    color: #fff;
+    
+}
+
+.country {
+    margin-left: 10px;
+}
+
+.city::after,
+.phone::after {
+    position: absolute;
+    content: "";
+    background-color: #fff;
+    width: 2px;
+    height: 20px;
+}
+
+.city::after {
+    right: -11px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px;
+    min-height: 100px;
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.info__block {
+    box-sizing: border-box;
+    padding: 10px;
+    width: 50%;
+}
+
+.info__block div {
+    padding: 15px;
+    line-height: 20px;
+}
+
+h2 {
+    padding: 0 5px;
+    background-color: #4e5e60;
+    color: #fff ;
+}
+
+main p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+}
+
+footer {
+    display: flex;
+    margin: 35px;
+    align-items: center;
+    justify-content: start;
+    min-height: 100px;
+    background-color: #4e5e60;
+    padding: 0 75px;
+}
+
+.footer_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+    height: 80px;
+}
+
+.footer__logo_title {
+    font-size: 20px;
+    font-weight: 700;
+}
+    
+.footer__logo a {
+    width: 100%;
+    height: 100%;
+}
+
+.footer__logo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0%;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+}
+
+.nav__header {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.contacts__links {
+    display: flex;
+    justify-content: space-between;
+    width: 240px;
+    height: 40px;
+}
+
+.contacts__links ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.contacts__links a {
+    width: 20px;
+    height: 20px;
+}
+
+.contacts__links ul li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+} 
+
+.phone_ico {
+    background: no-repeat center/contain url(img/telephone.svg);
+}
+
+.mail_ico {
+    background: no-repeat center/contain url(img/gmail.svg);
+}
+
+.github_ico {
+    background: no-repeat center/contain url(img/github.svg);
+}
+
+.telegram_ico {
+    background: no-repeat center/contain url(img/telegram.svg);
+}
